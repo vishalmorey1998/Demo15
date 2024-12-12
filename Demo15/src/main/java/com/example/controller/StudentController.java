@@ -6,4 +6,12 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudentController 
 {
 
+	public String m1()
+	{
+		int a=10;
+		int b=20;
+		int x=a+b;
+		System.out.println(x);
+		return "Vishal";
+	}
 }
